@@ -1,0 +1,32 @@
+.green-label {
+  color: #049a01;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px;
+  background: #f0ffee;
+}
+
+.blue-label {
+  color: #0d019a;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 8px;
+  background: #eef8ff;
+}
+
+.location {
+  font-size: 15px;
+  color: #535353;
+  margin-right: 18px;
+}
+
+.testimony {
+  font-size: 16px;
+  color: #474747;
+}
+
+.name {
+  color: #474747;
+}

@@ -1,5 +1,6 @@
-import React from 'react';
-import { firstSection } from '../../data/testimonies';
+import React from "react";
+import "./Testimonies.css";
+import { firstSection } from "../../data/testimonies";
 import { Container, Row, Col } from "react-bootstrap";
 
 const FirstSection = () => {
@@ -8,11 +9,15 @@ const FirstSection = () => {
       <Row>
         {firstSection.map((client) => {
           return (
-            <Col sm="12" lg="4" md="4" className="mb-2" key={client.name}>
+            <Col sm="12" md="6" lg="4" className="mb-2" key={client.name}>
               <img src={client.image} alt="person" className="img-fluid" />
               <h4 className="name mt-3">{client.name}</h4>
-              <span className="location mr-3">{client.location} </span>
-              <span className={client.label === "VENDOR" ? "olabel" : "label"}>
+              <span className="location">{client.location} </span>
+              <span
+                className={
+                  client.label === "VENDOR" ? "green-label" : "blue-label"
+                }
+              >
                 {client.label}
               </span>
               <p className="testimony mt-3">{client.testimony}</p>
@@ -22,6 +27,6 @@ const FirstSection = () => {
       </Row>
     </Container>
   );
-}
+};
 
-export default FirstSection
+export default FirstSection;
