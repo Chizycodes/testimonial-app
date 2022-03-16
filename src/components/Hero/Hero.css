@@ -1,4 +1,11 @@
 .hero-texts h1 {
-    font-weight: 700;
-    font-size: 48px;
+    font-weight: 700 !important;
+    font-size: 45px;
+    color: #000000 !important;
+    margin-bottom: 24px;
+}
+
+.hero-texts p {
+    color: #494949;
+    font-size: 18px;
 }
