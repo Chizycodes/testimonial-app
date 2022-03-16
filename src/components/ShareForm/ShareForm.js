@@ -38,9 +38,9 @@ const ShareForm = ({ showThankyou, handleClose, modal }) => {
       <Thankyou handleClose={handleClose} modal={modal} />
       <Modal show={modal === "modal-one"} onHide={handleClose}>
         <Modal.Body>
-          <h4 className="font-weight-bold text-center mb-4">
+          <h3 className="share-h3 text-center mb-4">
             Share your amazing story!
-          </h4>
+          </h3>
           <Form>
             <Form.Group controlId="formBasicEmail" className="upload-form">
               <Form.Label>Upload your Picture</Form.Label> <br></br>

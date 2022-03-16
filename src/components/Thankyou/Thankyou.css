@@ -1,0 +1,10 @@
+.thankyou p {
+  color: #4a4a4a;
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+
+.thankyou h2 {
+    font-weight: 700;
+    margin: 1rem 0;
+}

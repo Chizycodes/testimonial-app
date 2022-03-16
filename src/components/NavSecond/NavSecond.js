@@ -14,7 +14,7 @@ const NavSecond = () => {
       variant="light"
     >
       <Container className="">
-        <Nav className="ml-5 mr-5 d-flex justify-content-center col">
+        <Nav className="mx-5 d-flex justify-content-between col">
           <Nav.Link href="#" className="nav-link-2">
             MARKETPLACE
           </Nav.Link>
