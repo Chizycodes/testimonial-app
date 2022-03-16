@@ -1,7 +1,9 @@
+import TopNav from "./components/Nav/TopNav";
+
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <TopNav/>
     </div>
   );
 }
