@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./ShareForm.css";
 import Modal from "react-bootstrap/Modal";
-import {Form, Col } from "react-bootstrap";
+import { Form, Col } from "react-bootstrap";
 import AttachIcon from "../../assets/attach-icon.png";
 import times from "../../assets/times-icon.png";
+import Thankyou from "../Thankyou/Thankyou";
 
 const ShareForm = ({ showThankyou, handleClose, modal }) => {
   const [image, setImage] = useState(null);
@@ -34,6 +35,7 @@ const ShareForm = ({ showThankyou, handleClose, modal }) => {
 
   return (
     <div>
+      <Thankyou handleClose={handleClose} modal={modal} />
       <Modal show={modal === "modal-one"} onHide={handleClose}>
         <Modal.Body>
           <h4 className="font-weight-bold text-center mb-4">
@@ -55,11 +57,7 @@ const ShareForm = ({ showThankyou, handleClose, modal }) => {
                 ) : (
                   <div className="flex-container space-between filename">
                     <span className="flex-item">Choose Image</span>
-                    <img
-                      src={AttachIcon}
-                      alt="Upload"
-                      className="img-fluid"
-                    />
+                    <img src={AttachIcon} alt="Upload" className="img-fluid" />
                   </div>
                 )}
               </label>
@@ -70,6 +68,7 @@ const ShareForm = ({ showThankyou, handleClose, modal }) => {
                 className="form-file"
                 name="file"
                 placeholder=""
+                required
                 onChange={(e) => handleImageChange(e)}
               />
             </Form.Group>
@@ -77,12 +76,12 @@ const ShareForm = ({ showThankyou, handleClose, modal }) => {
             <Form className="row frm">
               <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label>First Name</Form.Label>
-                <Form.Control type="name" required/>
+                <Form.Control type="name" required />
               </Form.Group>
 
               <Form.Group as={Col} controlId="formGridPassword">
                 <Form.Label>Last Name</Form.Label>
-                <Form.Control type="name" required/>
+                <Form.Control type="name" required />
               </Form.Group>
             </Form>
 
