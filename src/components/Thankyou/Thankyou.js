@@ -1,12 +1,13 @@
 import React from "react";
 import Image from '../../assets/thanks.png';
+import Modal from "react-bootstrap/Modal";
 
 const Thankyou = ({ modal, handleClose }) => {
   return (
     <Modal show={modal === "modal-two"}>
       <Modal.Body>
         <div className="text-center p-5">
-          <img src={image} alt="complete" className="img-fluid" />
+          <img src={Image} alt="complete" className="img-fluid" />
 
           <h2 className="font-weight-bold mt-3">
             Thank you for <br />

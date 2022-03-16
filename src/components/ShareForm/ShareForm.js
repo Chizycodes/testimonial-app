@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ShareForm.css";
 import Modal from "react-bootstrap/Modal";
-import { Button, Form, Col } from "react-bootstrap";
+import {Form, Col } from "react-bootstrap";
 import AttachIcon from "../../assets/attach-icon.png";
 import times from "../../assets/times-icon.png";
 
@@ -57,7 +57,7 @@ const ShareForm = ({ showThankyou, handleClose, modal }) => {
                     <span className="flex-item">Choose Image</span>
                     <img
                       src={AttachIcon}
-                      alt="Upload Image"
+                      alt="Upload"
                       className="img-fluid"
                     />
                   </div>

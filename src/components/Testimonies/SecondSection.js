@@ -12,7 +12,7 @@ const SecondSection = () => {
               <img src={client.image} alt="person" className="img-fluid" />
               <h4 className="name mt-3">{client.name}</h4>
               <span className="location mr-3">{client.location} </span>
-              <span className={client.label === "VENDOR" ? "olabel" : "label"}>
+              <span className={client.label === "VENDOR" ? "green-label" : "blue-label"}>
                 {client.label}
               </span>
               <p className="testimony mt-3">{client.testimony}</p>
