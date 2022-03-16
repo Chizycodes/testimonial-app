@@ -1,0 +1,54 @@
+footer {
+    background-color: #25201D !important;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer img.img-fluid.image-top {
+  top: -55px;
+  position: relative;
+}
+
+footer ul li {
+  margin-bottom: 0.8rem;
+}
+
+footer ul li a {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 3rem;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: rgb(204, 197, 197);
+}
+
+.sub-btn {
+    height: 80%;
+}
+
+.input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu)::placeholder {
+    color: white;
+    font-size: 14px;
+}
+
+.input-group:not(.has-validation)>.custom-file:not(:last-child) .custom-file-label::after, .input-group:not(.has-validation)>.custom-select:not(:last-child), .input-group:not(.has-validation)>.form-control:not(:last-child) {
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border: none;
+    
+}
+
+.input-group-text {
+    color: #242120;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.socials img {
+    margin-right: 5px;
+}

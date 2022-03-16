@@ -10,7 +10,7 @@ const FirstBanner = () => {
       <Container>
         <Row className="banner">
           <Col sm="12" lg="6" md="6" className="image-div">
-            <img src={Image} alt="Image" className="img-fluid" />
+            <img src={Image} alt="banner" className="img-fluid" />
           </Col>
           <Col
             sm="12"
