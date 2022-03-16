@@ -1,31 +1,43 @@
 .client-badge {
-    border: 1px solid rgba(255, 255, 255, 0.4); 
-    border-radius: 4px;
-    padding: 2px 5px;
-    width: fit-content;
-    margin-bottom: 32px;
-    font-size: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  padding: 2px 5px;
+  width: fit-content;
+  margin-bottom: 32px;
+  font-size: 13px;
 }
 
 .banner-texts p {
-    font-size: 18px;
-    margin-bottom: 48px;
+  font-size: 18px;
+  margin-bottom: 48px;
 }
 
 .banner-texts button {
-    color: #ffffff;
-    width: 200px;
-    font-size: 16px;
-    text-align: left;
-    border: none;
-    outline: none;
-    margin: 0;
-    padding: 0;
+  color: #ffffff;
+  width: 200px;
+  font-size: 16px;
+  text-align: left;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
 }
 
-@media(max-width: 768px) {
-    .banner {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+.banner-texts button:hover {
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+
+.banner-texts button:focus {
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
