@@ -1,0 +1,28 @@
+.signup-btn button {
+  background-color: #ff5c00;
+  color: white;
+  font-weight: 500;
+  box-shadow: rgba(239, 88, 3, 0.2);
+  border-radius: 4px;
+  padding: 5px 15px;
+  outline: none;
+  border: none;
+}
+
+.nav-items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.top-nav-link {
+  color: #242120 !important;
+  font-size: 13px;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 10px;
+}
+
+.sticky-top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
